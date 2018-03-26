@@ -3,45 +3,61 @@
             "id": 1,
             "organization": "ABC Company Inc.",
             "ProgramName": "Weekly Program 1",
-            "Description": "Weekly",
             "StartDate": "01/01/2018",
-            "EndDate": "06/08/2018",
-            "Fee": "$100"
+            "EndDate": "06/08/2018"
         },
         {
             "id": 2,
             "organization": "DEF Company LLC.",
             "ProgramName": "Monthly Program 1",
-            "Description": "Monthly",
             "StartDate": "01/01/2018",
-            "EndDate": "07/08/2018",
-            "Fee": "$300"
+            "EndDate": "07/08/2018"
         },
         {
             "id": 3,
             "organization": "XYZ Inc.",
             "ProgramName": "Yearly Porgram 1",
-            "Description": "Yearly",
             "StartDate": "01/01/2018",
-            "EndDate": "12/01/2020",
-            "Fee": "$600"
+            "EndDate": "12/01/2020"
         },
         {
             "id": 4,
             "organization": "QRS Corp.",
             "ProgramName": "Weekly Program 1",
-            "Description": "Weekly",
             "StartDate": "01/01/2018",
-            "EndDate": "06/08/2018",
-            "Fee": "$600"
+            "EndDate": "06/08/2018"
         },
         {
             "id": 5,
             "organization": "KLM Organization",
             "ProgramName": "Daily Program",
-            "Description": "Daily",
             "StartDate": "03/01/2018",
-            "WeekDate": "11/30/2018",
+            "WeekDate": "11/30/2018"
+        }
+    ],
+    "programs_2": [{
+            "id": 1,
+            "Description": "Weekly",
+            "Fee": "$100"
+        },
+        {
+            "id": 2,
+            "Description": "Monthly",
+            "Fee": "$300"
+        },
+        {
+            "id": 3,
+            "Description": "Yearly",
+            "Fee": "$600"
+        },
+        {
+            "id": 4,
+            "Description": "Weekly",
+            "Fee": "$600"
+        },
+        {
+            "id": 5,
+            "Description": "Daily",
             "Fee": "$500"
         }
     ],
@@ -49,31 +65,44 @@
             "id": 1,
             "organization": "KLM Organization",
             "ProgramName": "Daily Program",
-            "Description": "Daily",
-            "PaymentDate": "01/01/2017",
-            "Status": "PAID"
+            "Description": "Daily"
         },
         {
             "id": 2,
             "organization": "KLM Organization",
             "ProgramName": "Daily Program",
-            "Description": "Daily",
-            "PaymentDate": "01/04/2017",
-            "Status": "NSF"
+            "Description": "Daily"
         },
         {
             "id": 3,
             "organization": "KLM Organization",
             "ProgramName": "Daily Program",
-            "Description": "Daily",
-            "PaymentDate": "01/08/2017",
-            "Status": "NSF"
+            "Description": "Daily"
         },
         {
             "id": 4,
             "organization": "KLM Organization",
             "ProgramName": "Daily Program",
-            "Description": "Daily",
+            "Description": "Daily"
+        }
+    ],
+    "previoustransactions_2": [{
+            "id": 1,
+            "PaymentDate": "01/01/2017",
+            "Status": "PAID"
+        },
+        {
+            "id": 2,
+            "PaymentDate": "01/04/2017",
+            "Status": "NSF"
+        },
+        {
+            "id": 3,
+            "PaymentDate": "01/08/2017",
+            "Status": "NSF"
+        },
+        {
+            "id": 4,
             "PaymentDate": "01/01/2018",
             "Status": "PAID"
         }
@@ -178,10 +207,10 @@
         }
     ],
     "Members": [{
+            "id": 1,
             "FirstName": "Umer",
             "LastName": "Farooq",
-            "MemberPhoneNumber": "122-133-7899",
-            "id": 1
+            "MemberPhoneNumber": "122-133-7899"
         },
         {
             "id": 2,
@@ -190,10 +219,10 @@
             "MemberPhoneNumber": "123-123-8888"
         },
         {
+            "id": 3,
             "FirstName": "Mohsin",
             "LastName": "Ali",
-            "MemberPhoneNumber": "123-123-9999",
-            "id": 3
+            "MemberPhoneNumber": "123-123-9999"
         },
         {
             "id": 4,
